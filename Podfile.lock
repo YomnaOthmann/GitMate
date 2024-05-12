@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.9.1)
+  - CombineCocoa (0.4.1)
+  - CombineDataSources (0.2.5)
+  - Kingfisher (7.11.0)
+  - lottie-ios (3.2.3)
+  - SkeletonView (1.30.4)
+  - Swinject (2.7.1)
+  - SwinjectStoryboard (2.2.2):
+    - Swinject (~> 2.7.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - CombineCocoa
+  - CombineDataSources
+  - Kingfisher (~> 7.0)
+  - lottie-ios (~> 3.2.3)
+  - SkeletonView
+  - SwinjectStoryboard
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CombineCocoa
+    - CombineDataSources
+    - Kingfisher
+    - lottie-ios
+    - SkeletonView
+    - Swinject
+    - SwinjectStoryboard
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  CombineCocoa: e5210dbfb480ff251078929459ac17e750e7af1d
+  CombineDataSources: dcbc3b06a038ffdf620b3b4533d3ecaf76ca6a2e
+  Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+  SwinjectStoryboard: 240ce371396da09a4c43c72ee5c148108500e184
+
+PODFILE CHECKSUM: 4413a9fd5f04901d5581454ebecfcd197d4bd425
+
+COCOAPODS: 1.14.3

@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041B164B2BF0420A009BACDA /* TableViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B164A2BF0420A009BACDA /* TableViewExt.swift */; };
+		041B164D2BF04218009BACDA /* CollectionViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B164C2BF04218009BACDA /* CollectionViewExt.swift */; };
+		041B164F2BF04243009BACDA /* VIPERProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B164E2BF04243009BACDA /* VIPERProtocols.swift */; };
+		047D198BFA17985C5E0BF3AF /* Pods_GitMateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6008693AE324F278DC7E3922 /* Pods_GitMateTests.framework */; };
+		048B05932BD6A43B004C17C5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B05922BD6A43B004C17C5 /* Constants.swift */; };
+		048E30412BE2A574007C377D /* gitAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 048E30402BE2A574007C377D /* gitAnimation.json */; };
+		048E304A2BE2A725007C377D /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E30492BE2A725007C377D /* NetworkMonitor.swift */; };
+		048E304C2BE2A735007C377D /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E304B2BE2A735007C377D /* NetworkReachability.swift */; };
+		048E304E2BE2A77B007C377D /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E304D2BE2A77B007C377D /* RequestHandler.swift */; };
+		048E30532BE2AACC007C377D /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E30522BE2AACC007C377D /* LaunchViewController.swift */; };
 		048F678E2BB2481C001E6443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F678D2BB2481C001E6443 /* AppDelegate.swift */; };
 		048F67902BB2481C001E6443 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F678F2BB2481C001E6443 /* SceneDelegate.swift */; };
-		048F67922BB2481C001E6443 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F67912BB2481C001E6443 /* ViewController.swift */; };
 		048F67952BB2481C001E6443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048F67932BB2481C001E6443 /* Main.storyboard */; };
 		048F67982BB2481C001E6443 /* GitMate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048F67962BB2481C001E6443 /* GitMate.xcdatamodeld */; };
 		048F679A2BB2481E001E6443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048F67992BB2481E001E6443 /* Assets.xcassets */; };
@@ -17,6 +26,10 @@
 		048F67A82BB2481E001E6443 /* GitMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F67A72BB2481E001E6443 /* GitMateTests.swift */; };
 		048F67B22BB2481E001E6443 /* GitMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F67B12BB2481E001E6443 /* GitMateUITests.swift */; };
 		048F67B42BB2481E001E6443 /* GitMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F67B32BB2481E001E6443 /* GitMateUITestsLaunchTests.swift */; };
+		04A450722BE3B00F00636FB7 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A450712BE3B00F00636FB7 /* AuthenticationViewController.swift */; };
+		04AFD0532BE001E80008BAF0 /* DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD0522BE001E80008BAF0 /* DependencyManager.swift */; };
+		37701A177E211A58AC4A7390 /* Pods_GitMate_GitMateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A3708A75DFDC28EDFB69CB /* Pods_GitMate_GitMateUITests.framework */; };
+		F8871692812F8D14BADACA45 /* Pods_GitMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B906CCEBDB183194E6518E9B /* Pods_GitMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +50,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041B164A2BF0420A009BACDA /* TableViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExt.swift; sourceTree = "<group>"; };
+		041B164C2BF04218009BACDA /* CollectionViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewExt.swift; sourceTree = "<group>"; };
+		041B164E2BF04243009BACDA /* VIPERProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERProtocols.swift; sourceTree = "<group>"; };
+		048B05922BD6A43B004C17C5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		048E30402BE2A574007C377D /* gitAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gitAnimation.json; sourceTree = "<group>"; };
+		048E30492BE2A725007C377D /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		048E304B2BE2A735007C377D /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		048E304D2BE2A77B007C377D /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		048E30522BE2AACC007C377D /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		048F678A2BB2481C001E6443 /* GitMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048F678D2BB2481C001E6443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048F678F2BB2481C001E6443 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		048F67912BB2481C001E6443 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		048F67942BB2481C001E6443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		048F67972BB2481C001E6443 /* GitMate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GitMate.xcdatamodel; sourceTree = "<group>"; };
 		048F67992BB2481E001E6443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +72,17 @@
 		048F67AD2BB2481E001E6443 /* GitMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		048F67B12BB2481E001E6443 /* GitMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitMateUITests.swift; sourceTree = "<group>"; };
 		048F67B32BB2481E001E6443 /* GitMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04A450712BE3B00F00636FB7 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		04AFD0522BE001E80008BAF0 /* DependencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyManager.swift; sourceTree = "<group>"; };
+		10219612A8C499772A2085CE /* Pods-GitMateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitMateTests.release.xcconfig"; path = "Target Support Files/Pods-GitMateTests/Pods-GitMateTests.release.xcconfig"; sourceTree = "<group>"; };
+		12A592D1821633B1DD96B441 /* Pods-GitMate-GitMateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitMate-GitMateUITests.release.xcconfig"; path = "Target Support Files/Pods-GitMate-GitMateUITests/Pods-GitMate-GitMateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		31A3708A75DFDC28EDFB69CB /* Pods_GitMate_GitMateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitMate_GitMateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3450E44ECAC18E6517D0A46A /* Pods-GitMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitMate.debug.xcconfig"; path = "Target Support Files/Pods-GitMate/Pods-GitMate.debug.xcconfig"; sourceTree = "<group>"; };
+		5B2CCEB6BB1C6F3EEC11BD2E /* Pods-GitMate-GitMateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitMate-GitMateUITests.debug.xcconfig"; path = "Target Support Files/Pods-GitMate-GitMateUITests/Pods-GitMate-GitMateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6008693AE324F278DC7E3922 /* Pods_GitMateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitMateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B868BAD2B20E3EAC7D6FA061 /* Pods-GitMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitMate.release.xcconfig"; path = "Target Support Files/Pods-GitMate/Pods-GitMate.release.xcconfig"; sourceTree = "<group>"; };
+		B906CCEBDB183194E6518E9B /* Pods_GitMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6106B705172F497A8954040 /* Pods-GitMateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitMateTests.debug.xcconfig"; path = "Target Support Files/Pods-GitMateTests/Pods-GitMateTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8871692812F8D14BADACA45 /* Pods_GitMate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047D198BFA17985C5E0BF3AF /* Pods_GitMateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +106,125 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37701A177E211A58AC4A7390 /* Pods_GitMate_GitMateUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041B16472BF0208B009BACDA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				041B164A2BF0420A009BACDA /* TableViewExt.swift */,
+				041B164C2BF04218009BACDA /* CollectionViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0423488D2BD94D1B00B1FC03 /* AuthenticationModule */ = {
+			isa = PBXGroup;
+			children = (
+				04A450702BE3A9B800636FB7 /* View */,
+			);
+			path = AuthenticationModule;
+			sourceTree = "<group>";
+		};
+		048B058F2BD6A407004C17C5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				049264D42BDF41A300465168 /* LaunchModule */,
+				048E30542BE2AAEC007C377D /* TabBarModule */,
+				0423488D2BD94D1B00B1FC03 /* AuthenticationModule */,
+				048E304F2BE2A7AF007C377D /* HomeModule */,
+				048E30512BE2A7C6007C377D /* SearchModule */,
+				048E30502BE2A7B9007C377D /* ProfileModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		048B05902BD6A410004C17C5 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				048E30482BE2A6EA007C377D /* RequestHandler */,
+				048E30472BE2A6D1007C377D /* NetworkReachability */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		048B05912BD6A41E004C17C5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				041B16472BF0208B009BACDA /* Extensions */,
+				049264D32BDF416900465168 /* Dependencies */,
+				049264D22BDF415400465168 /* Resources */,
+				048B05922BD6A43B004C17C5 /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		048E30422BE2A5C5007C377D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				048E30522BE2AACC007C377D /* LaunchViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		048E30462BE2A61C007C377D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				048F67932BB2481C001E6443 /* Main.storyboard */,
+				048F679B2BB2481E001E6443 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		048E30472BE2A6D1007C377D /* NetworkReachability */ = {
+			isa = PBXGroup;
+			children = (
+				048E30492BE2A725007C377D /* NetworkMonitor.swift */,
+				048E304B2BE2A735007C377D /* NetworkReachability.swift */,
+			);
+			path = NetworkReachability;
+			sourceTree = "<group>";
+		};
+		048E30482BE2A6EA007C377D /* RequestHandler */ = {
+			isa = PBXGroup;
+			children = (
+				048E304D2BE2A77B007C377D /* RequestHandler.swift */,
+			);
+			path = RequestHandler;
+			sourceTree = "<group>";
+		};
+		048E304F2BE2A7AF007C377D /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		048E30502BE2A7B9007C377D /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		048E30512BE2A7C6007C377D /* SearchModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SearchModule;
+			sourceTree = "<group>";
+		};
+		048E30542BE2AAEC007C377D /* TabBarModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBarModule;
+			sourceTree = "<group>";
+		};
 		048F67812BB2481C001E6443 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +232,8 @@
 				048F67A62BB2481E001E6443 /* GitMateTests */,
 				048F67B02BB2481E001E6443 /* GitMateUITests */,
 				048F678B2BB2481C001E6443 /* Products */,
+				98A04E705D2518D96CE596D8 /* Pods */,
+				D1BC5C8DFF920A0589F03F0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +250,12 @@
 		048F678C2BB2481C001E6443 /* GitMate */ = {
 			isa = PBXGroup;
 			children = (
-				048F678D2BB2481C001E6443 /* AppDelegate.swift */,
-				048F678F2BB2481C001E6443 /* SceneDelegate.swift */,
-				048F67912BB2481C001E6443 /* ViewController.swift */,
-				048F67932BB2481C001E6443 /* Main.storyboard */,
-				048F67992BB2481E001E6443 /* Assets.xcassets */,
-				048F679B2BB2481E001E6443 /* LaunchScreen.storyboard */,
+				048E30462BE2A61C007C377D /* Storyboards */,
+				048F890B2BDFF1BF0075B917 /* Protocols */,
+				04B1F2A52BDE9A1E00D9E0D1 /* Delegates */,
+				048B05912BD6A41E004C17C5 /* Helper */,
+				048B05902BD6A410004C17C5 /* NetworkLayer */,
+				048B058F2BD6A407004C17C5 /* Modules */,
 				048F679E2BB2481E001E6443 /* Info.plist */,
 				048F67962BB2481C001E6443 /* GitMate.xcdatamodeld */,
 			);
@@ -130,6 +279,79 @@
 			path = GitMateUITests;
 			sourceTree = "<group>";
 		};
+		048F890B2BDFF1BF0075B917 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				041B164E2BF04243009BACDA /* VIPERProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		049264D22BDF415400465168 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				048F67992BB2481E001E6443 /* Assets.xcassets */,
+				048E30402BE2A574007C377D /* gitAnimation.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		049264D32BDF416900465168 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				04AFD0522BE001E80008BAF0 /* DependencyManager.swift */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		049264D42BDF41A300465168 /* LaunchModule */ = {
+			isa = PBXGroup;
+			children = (
+				048E30422BE2A5C5007C377D /* View */,
+			);
+			path = LaunchModule;
+			sourceTree = "<group>";
+		};
+		04A450702BE3A9B800636FB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04A450712BE3B00F00636FB7 /* AuthenticationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04B1F2A52BDE9A1E00D9E0D1 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				048F678D2BB2481C001E6443 /* AppDelegate.swift */,
+				048F678F2BB2481C001E6443 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		98A04E705D2518D96CE596D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3450E44ECAC18E6517D0A46A /* Pods-GitMate.debug.xcconfig */,
+				B868BAD2B20E3EAC7D6FA061 /* Pods-GitMate.release.xcconfig */,
+				5B2CCEB6BB1C6F3EEC11BD2E /* Pods-GitMate-GitMateUITests.debug.xcconfig */,
+				12A592D1821633B1DD96B441 /* Pods-GitMate-GitMateUITests.release.xcconfig */,
+				D6106B705172F497A8954040 /* Pods-GitMateTests.debug.xcconfig */,
+				10219612A8C499772A2085CE /* Pods-GitMateTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1BC5C8DFF920A0589F03F0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B906CCEBDB183194E6518E9B /* Pods_GitMate.framework */,
+				31A3708A75DFDC28EDFB69CB /* Pods_GitMate_GitMateUITests.framework */,
+				6008693AE324F278DC7E3922 /* Pods_GitMateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +359,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 048F67B72BB2481E001E6443 /* Build configuration list for PBXNativeTarget "GitMate" */;
 			buildPhases = (
+				F78FC57CDA1C20F9B7340622 /* [CP] Check Pods Manifest.lock */,
 				048F67862BB2481C001E6443 /* Sources */,
 				048F67872BB2481C001E6443 /* Frameworks */,
 				048F67882BB2481C001E6443 /* Resources */,
+				340E30ED37EB871058911DC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +378,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 048F67BA2BB2481E001E6443 /* Build configuration list for PBXNativeTarget "GitMateTests" */;
 			buildPhases = (
+				6285A5E7E2E75EE26618EC84 /* [CP] Check Pods Manifest.lock */,
 				048F679F2BB2481E001E6443 /* Sources */,
 				048F67A02BB2481E001E6443 /* Frameworks */,
 				048F67A12BB2481E001E6443 /* Resources */,
@@ -172,9 +397,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 048F67BD2BB2481E001E6443 /* Build configuration list for PBXNativeTarget "GitMateUITests" */;
 			buildPhases = (
+				F0FCD1ADB6BF7F15BBB59D3E /* [CP] Check Pods Manifest.lock */,
 				048F67A92BB2481E001E6443 /* Sources */,
 				048F67AA2BB2481E001E6443 /* Frameworks */,
 				048F67AB2BB2481E001E6443 /* Resources */,
+				168A18ECB9D4891F4AB81DB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +462,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				048F679D2BB2481E001E6443 /* LaunchScreen.storyboard in Resources */,
+				048E30412BE2A574007C377D /* gitAnimation.json in Resources */,
 				048F679A2BB2481E001E6443 /* Assets.xcassets in Resources */,
 				048F67952BB2481C001E6443 /* Main.storyboard in Resources */,
 			);
@@ -256,14 +484,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		168A18ECB9D4891F4AB81DB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitMate-GitMateUITests/Pods-GitMate-GitMateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitMate-GitMateUITests/Pods-GitMate-GitMateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitMate-GitMateUITests/Pods-GitMate-GitMateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		340E30ED37EB871058911DC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitMate/Pods-GitMate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitMate/Pods-GitMate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitMate/Pods-GitMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6285A5E7E2E75EE26618EC84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitMateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0FCD1ADB6BF7F15BBB59D3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitMate-GitMateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F78FC57CDA1C20F9B7340622 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitMate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		048F67862BB2481C001E6443 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048F67922BB2481C001E6443 /* ViewController.swift in Sources */,
+				048E30532BE2AACC007C377D /* LaunchViewController.swift in Sources */,
+				048E304C2BE2A735007C377D /* NetworkReachability.swift in Sources */,
+				041B164B2BF0420A009BACDA /* TableViewExt.swift in Sources */,
+				04AFD0532BE001E80008BAF0 /* DependencyManager.swift in Sources */,
+				048E304E2BE2A77B007C377D /* RequestHandler.swift in Sources */,
+				048B05932BD6A43B004C17C5 /* Constants.swift in Sources */,
 				048F678E2BB2481C001E6443 /* AppDelegate.swift in Sources */,
+				041B164D2BF04218009BACDA /* CollectionViewExt.swift in Sources */,
 				048F67902BB2481C001E6443 /* SceneDelegate.swift in Sources */,
+				04A450722BE3B00F00636FB7 /* AuthenticationViewController.swift in Sources */,
+				041B164F2BF04243009BACDA /* VIPERProtocols.swift in Sources */,
+				048E304A2BE2A725007C377D /* NetworkMonitor.swift in Sources */,
 				048F67982BB2481C001E6443 /* GitMate.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,7 +697,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -420,7 +760,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -441,6 +781,7 @@
 		};
 		048F67B82BB2481E001E6443 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3450E44ECAC18E6517D0A46A /* Pods-GitMate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,7 +791,7 @@
 				INFOPLIST_FILE = GitMate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,6 +809,7 @@
 		};
 		048F67B92BB2481E001E6443 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B868BAD2B20E3EAC7D6FA061 /* Pods-GitMate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,7 +819,7 @@
 				INFOPLIST_FILE = GitMate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -495,6 +837,7 @@
 		};
 		048F67BB2BB2481E001E6443 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6106B705172F497A8954040 /* Pods-GitMateTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +857,7 @@
 		};
 		048F67BC2BB2481E001E6443 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10219612A8C499772A2085CE /* Pods-GitMateTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +877,7 @@
 		};
 		048F67BE2BB2481E001E6443 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B2CCEB6BB1C6F3EEC11BD2E /* Pods-GitMate-GitMateUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +895,7 @@
 		};
 		048F67BF2BB2481E001E6443 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A592D1821633B1DD96B441 /* Pods-GitMate-GitMateUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

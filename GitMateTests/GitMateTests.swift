@@ -2,7 +2,7 @@
 //  GitMateTests.swift
 //  GitMateTests
 //
-//  Created by Mac on 26/03/2024.
+//  Created by Yomna Othman on 26/03/2024.
 //
 
 import XCTest
