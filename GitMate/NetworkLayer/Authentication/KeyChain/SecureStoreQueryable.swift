@@ -8,7 +8,7 @@
 import Foundation
 import Security
 
-public protocol SecureStoreQueryable{
+protocol SecureStoreQueryable{
     var query: [String: Any] { get }
     
 }
@@ -23,7 +23,7 @@ public struct GenericPasswordQueryable{
     }
 }
 
-extension GenericPasswordQueryable{
+extension GenericPasswordQueryable : SecureStoreQueryable{
     var query: [String: Any]{
         var query: [String: Any] = [:]
         
@@ -31,7 +31,9 @@ extension GenericPasswordQueryable{
         query[String(kSecAttrService)] = service
         
         #if !targetEnvironment(simulator)
-        query[String(kSecAttrAccessGroup)] = accessGroup
+        if let accessGroup = accessGroup{
+            query[String(kSecAttrAccessGroup)] = accessGroup
+        }
         #endif
         return query
     }
