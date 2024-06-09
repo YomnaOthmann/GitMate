@@ -11,12 +11,16 @@
 		041B164D2BF04218009BACDA /* CollectionViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B164C2BF04218009BACDA /* CollectionViewExt.swift */; };
 		041B164F2BF04243009BACDA /* VIPERProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B164E2BF04243009BACDA /* VIPERProtocols.swift */; };
 		047D198BFA17985C5E0BF3AF /* Pods_GitMateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6008693AE324F278DC7E3922 /* Pods_GitMateTests.framework */; };
-		048B05932BD6A43B004C17C5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B05922BD6A43B004C17C5 /* Constants.swift */; };
+		048B05932BD6A43B004C17C5 /* TokenConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B05922BD6A43B004C17C5 /* TokenConstants.swift */; };
+		048D74F02BF19999008B74DD /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D74EF2BF19999008B74DD /* NetworkLogger.swift */; };
+		048D74F22BF19E11008B74DD /* AccessTokenEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D74F12BF19E11008B74DD /* AccessTokenEntity.swift */; };
 		048E30412BE2A574007C377D /* gitAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 048E30402BE2A574007C377D /* gitAnimation.json */; };
 		048E304A2BE2A725007C377D /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E30492BE2A725007C377D /* NetworkMonitor.swift */; };
 		048E304C2BE2A735007C377D /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E304B2BE2A735007C377D /* NetworkReachability.swift */; };
 		048E304E2BE2A77B007C377D /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E304D2BE2A77B007C377D /* RequestHandler.swift */; };
 		048E30532BE2AACC007C377D /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E30522BE2AACC007C377D /* LaunchViewController.swift */; };
+		048F06AD2BFAFB4700878687 /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F06AC2BFAFB4700878687 /* SecureStore.swift */; };
+		048F06AF2BFAFB6200878687 /* SecureStoreQueryable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F06AE2BFAFB6200878687 /* SecureStoreQueryable.swift */; };
 		048F678E2BB2481C001E6443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F678D2BB2481C001E6443 /* AppDelegate.swift */; };
 		048F67902BB2481C001E6443 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F678F2BB2481C001E6443 /* SceneDelegate.swift */; };
 		048F67952BB2481C001E6443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048F67932BB2481C001E6443 /* Main.storyboard */; };
@@ -27,7 +31,10 @@
 		048F67B22BB2481E001E6443 /* GitMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F67B12BB2481E001E6443 /* GitMateUITests.swift */; };
 		048F67B42BB2481E001E6443 /* GitMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F67B32BB2481E001E6443 /* GitMateUITestsLaunchTests.swift */; };
 		04A450722BE3B00F00636FB7 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A450712BE3B00F00636FB7 /* AuthenticationViewController.swift */; };
+		04A4F6852BFB023D00E0D18C /* SecureStoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4F6842BFB023D00E0D18C /* SecureStoreError.swift */; };
 		04AFD0532BE001E80008BAF0 /* DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD0522BE001E80008BAF0 /* DependencyManager.swift */; };
+		04CF17072BF1915200A639DD /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF17062BF1915200A639DD /* TokenManager.swift */; };
+		04F5E3F52BF5A97A00199101 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5E3F42BF5A97A00199101 /* RequestInterceptor.swift */; };
 		37701A177E211A58AC4A7390 /* Pods_GitMate_GitMateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A3708A75DFDC28EDFB69CB /* Pods_GitMate_GitMateUITests.framework */; };
 		F8871692812F8D14BADACA45 /* Pods_GitMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B906CCEBDB183194E6518E9B /* Pods_GitMate.framework */; };
 /* End PBXBuildFile section */
@@ -53,12 +60,16 @@
 		041B164A2BF0420A009BACDA /* TableViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExt.swift; sourceTree = "<group>"; };
 		041B164C2BF04218009BACDA /* CollectionViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewExt.swift; sourceTree = "<group>"; };
 		041B164E2BF04243009BACDA /* VIPERProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERProtocols.swift; sourceTree = "<group>"; };
-		048B05922BD6A43B004C17C5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		048B05922BD6A43B004C17C5 /* TokenConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenConstants.swift; sourceTree = "<group>"; };
+		048D74EF2BF19999008B74DD /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		048D74F12BF19E11008B74DD /* AccessTokenEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenEntity.swift; sourceTree = "<group>"; };
 		048E30402BE2A574007C377D /* gitAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gitAnimation.json; sourceTree = "<group>"; };
 		048E30492BE2A725007C377D /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		048E304B2BE2A735007C377D /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
 		048E304D2BE2A77B007C377D /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
 		048E30522BE2AACC007C377D /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		048F06AC2BFAFB4700878687 /* SecureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStore.swift; sourceTree = "<group>"; };
+		048F06AE2BFAFB6200878687 /* SecureStoreQueryable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStoreQueryable.swift; sourceTree = "<group>"; };
 		048F678A2BB2481C001E6443 /* GitMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048F678D2BB2481C001E6443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048F678F2BB2481C001E6443 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,7 +84,10 @@
 		048F67B12BB2481E001E6443 /* GitMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitMateUITests.swift; sourceTree = "<group>"; };
 		048F67B32BB2481E001E6443 /* GitMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04A450712BE3B00F00636FB7 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		04A4F6842BFB023D00E0D18C /* SecureStoreError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStoreError.swift; sourceTree = "<group>"; };
 		04AFD0522BE001E80008BAF0 /* DependencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyManager.swift; sourceTree = "<group>"; };
+		04CF17062BF1915200A639DD /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
+		04F5E3F42BF5A97A00199101 /* RequestInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestInterceptor.swift; sourceTree = "<group>"; };
 		10219612A8C499772A2085CE /* Pods-GitMateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitMateTests.release.xcconfig"; path = "Target Support Files/Pods-GitMateTests/Pods-GitMateTests.release.xcconfig"; sourceTree = "<group>"; };
 		12A592D1821633B1DD96B441 /* Pods-GitMate-GitMateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitMate-GitMateUITests.release.xcconfig"; path = "Target Support Files/Pods-GitMate-GitMateUITests/Pods-GitMate-GitMateUITests.release.xcconfig"; sourceTree = "<group>"; };
 		31A3708A75DFDC28EDFB69CB /* Pods_GitMate_GitMateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitMate_GitMateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +160,7 @@
 		048B05902BD6A410004C17C5 /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				04CF17042BF1912C00A639DD /* Authentication */,
 				048E30482BE2A6EA007C377D /* RequestHandler */,
 				048E30472BE2A6D1007C377D /* NetworkReachability */,
 			);
@@ -158,7 +173,6 @@
 				041B16472BF0208B009BACDA /* Extensions */,
 				049264D32BDF416900465168 /* Dependencies */,
 				049264D22BDF415400465168 /* Resources */,
-				048B05922BD6A43B004C17C5 /* Constants.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -193,6 +207,8 @@
 			isa = PBXGroup;
 			children = (
 				048E304D2BE2A77B007C377D /* RequestHandler.swift */,
+				048D74EF2BF19999008B74DD /* NetworkLogger.swift */,
+				04F5E3F42BF5A97A00199101 /* RequestInterceptor.swift */,
 			);
 			path = RequestHandler;
 			sourceTree = "<group>";
@@ -223,6 +239,16 @@
 			children = (
 			);
 			path = TabBarModule;
+			sourceTree = "<group>";
+		};
+		048F06AB2BFAFB1A00878687 /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				048F06AC2BFAFB4700878687 /* SecureStore.swift */,
+				048F06AE2BFAFB6200878687 /* SecureStoreQueryable.swift */,
+				04A4F6842BFB023D00E0D18C /* SecureStoreError.swift */,
+			);
+			path = KeyChain;
 			sourceTree = "<group>";
 		};
 		048F67812BB2481C001E6443 = {
@@ -327,6 +353,25 @@
 				048F678F2BB2481C001E6443 /* SceneDelegate.swift */,
 			);
 			path = Delegates;
+			sourceTree = "<group>";
+		};
+		04CF17042BF1912C00A639DD /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				048F06AB2BFAFB1A00878687 /* KeyChain */,
+				04CF17052BF1913F00A639DD /* Token */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		04CF17052BF1913F00A639DD /* Token */ = {
+			isa = PBXGroup;
+			children = (
+				048B05922BD6A43B004C17C5 /* TokenConstants.swift */,
+				04CF17062BF1915200A639DD /* TokenManager.swift */,
+				048D74F12BF19E11008B74DD /* AccessTokenEntity.swift */,
+			);
+			path = Token;
 			sourceTree = "<group>";
 		};
 		98A04E705D2518D96CE596D8 /* Pods */ = {
@@ -592,19 +637,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F5E3F52BF5A97A00199101 /* RequestInterceptor.swift in Sources */,
 				048E30532BE2AACC007C377D /* LaunchViewController.swift in Sources */,
+				048F06AD2BFAFB4700878687 /* SecureStore.swift in Sources */,
 				048E304C2BE2A735007C377D /* NetworkReachability.swift in Sources */,
+				048D74F22BF19E11008B74DD /* AccessTokenEntity.swift in Sources */,
 				041B164B2BF0420A009BACDA /* TableViewExt.swift in Sources */,
 				04AFD0532BE001E80008BAF0 /* DependencyManager.swift in Sources */,
 				048E304E2BE2A77B007C377D /* RequestHandler.swift in Sources */,
-				048B05932BD6A43B004C17C5 /* Constants.swift in Sources */,
+				048B05932BD6A43B004C17C5 /* TokenConstants.swift in Sources */,
 				048F678E2BB2481C001E6443 /* AppDelegate.swift in Sources */,
 				041B164D2BF04218009BACDA /* CollectionViewExt.swift in Sources */,
+				04A4F6852BFB023D00E0D18C /* SecureStoreError.swift in Sources */,
+				048D74F02BF19999008B74DD /* NetworkLogger.swift in Sources */,
 				048F67902BB2481C001E6443 /* SceneDelegate.swift in Sources */,
 				04A450722BE3B00F00636FB7 /* AuthenticationViewController.swift in Sources */,
 				041B164F2BF04243009BACDA /* VIPERProtocols.swift in Sources */,
 				048E304A2BE2A725007C377D /* NetworkMonitor.swift in Sources */,
+				048F06AF2BFAFB6200878687 /* SecureStoreQueryable.swift in Sources */,
 				048F67982BB2481C001E6443 /* GitMate.xcdatamodeld in Sources */,
+				04CF17072BF1915200A639DD /* TokenManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
